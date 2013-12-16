@@ -3,7 +3,7 @@
         <Tab id="tabMap" title="Map">
             <Window id="winMap" title="London map">
                <View id="mapview" ns="Ti.Map"
-            animate="true" regionFit="true" userLocation="true"
+            animate="true" regionFit="true" userLocation="false"
             mapType="Ti.Map.STANDARD_TYPE" >
 
             <!-- <Annotation id="mountainView"

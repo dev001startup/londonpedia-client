@@ -1,8 +1,14 @@
 {
-	"global": {}, 
-	"env:development": {}, 
-	"env:test": {}, 
-	"env:production": {}, 
+	"global": {
+        "planVine" : {
+            "key" : "be3e421cec76477aaa7acac1157e6c2e",
+            "endPoint" : "http://planvine.com/api/v1",
+            "timeout" : 30000
+        }
+    },
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
 	"os:android": {},
 	"os:blackberry": {},
 	"os:ios": {},
