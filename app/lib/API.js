@@ -17,6 +17,7 @@ function API() {
         xhr.open(args).then(function(obj) {
             data = obj.data;
             if (data && data.data && data.data.length) {
+                Alloy.Globals.Events = data.data;
                 successCallback(data);
             } else {
                 errorCallback(data);

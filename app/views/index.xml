@@ -1,24 +1,19 @@
 <Alloy>
-    <TabGroup id="tabGroup" onOpen="start">
-        <Tab id="tabMap" title="Map">
-            <Window id="winMap" title="London map">
-               <View id="mapview" ns="Ti.Map"
-            animate="true" regionFit="true" userLocation="false"
-            mapType="Ti.Map.STANDARD_TYPE" >
-
-            <!-- <Annotation id="mountainView"
-              latitude="37.390749" longitude="-122.081651"
-              title="Appcelerator Headquarters" subtitle="Mountain View, CA"
-              pincolor="Titanium.Map.ANNOTATION_RED"
-              leftButton="/images/appcelerator_small.png"
-              myid="1"/> -->
-        </View>
-            </Window>
-        </Tab>
-        <Tab id="tabList" title="List">
-            <Window id="winList" title="London list">
-                <Label id="label2" color="#999">I am Window 2</Label>
-            </Window>
-        </Tab>
-    </TabGroup>
+    <Window id="container">
+        <TabGroup id="tabGroup" onOpen="start">
+            <Tab id="tabMap" title="Map">
+                <Window id="winMap" title="London map">
+                   <View id="mapview" ns="Ti.Map"
+                animate="true" regionFit="true" userLocation="false"
+                mapType="Ti.Map.STANDARD_TYPE" >
+            </View>
+                </Window>
+            </Tab>
+            <Tab id="tabList" title="List">
+                <Window id="winList" title="London list">
+                    <Label id="label2" color="#999">I am Window 2</Label>
+                </Window>
+            </Tab>
+        </TabGroup>
+    </Window>
 </Alloy>

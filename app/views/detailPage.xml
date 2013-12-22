@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="page">
+        <View class="container">
+            <Label>detail page</Label>
+        </View>
+    </Window>
+</Alloy>
