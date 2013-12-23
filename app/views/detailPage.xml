@@ -1,7 +1,15 @@
 <Alloy>
     <Window id="page">
         <View class="container">
-            <Label>detail page</Label>
+            <Label id="header" class="h1" />
+            <ImageView id="photo" />
+
+            <Label id="startDate" class="p" />
+            <Label id="endDate" class="p" />
+            <Label id="address" class="p" />
+
+            <Button onClick="doClick">URL</Button>
+
         </View>
     </Window>
 </Alloy>
